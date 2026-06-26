@@ -22,7 +22,7 @@ Clone the repository into your ROS2 workspace:
 
 ```bash
 cd ~/ros2_ws/src
-git clone https://github.com/moddena-robotics/mr3_mini_description.git
+git clone https://github.com/modena-robotics/mr3_mini_description.git
 ```
 
 Build the package:
