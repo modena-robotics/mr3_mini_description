@@ -24,7 +24,7 @@ setup(
     maintainer='Matheus Lino',
     maintainer_email='matheus.vlino@gmail.com',
     description='URDF and meshes for the MR-3 Mini palletizing robot',
-    license='MIT',
+    license='BSD-3-Clause',
     tests_require=['pytest'],
     entry_points={
         'console_scripts': [
