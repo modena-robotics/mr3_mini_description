@@ -51,4 +51,4 @@ allowing the user to visualize and interact with the robot model.
 Tested with ROS2 Jazzy.
 
 ## License
-BSD 3-Clause License
+This project is licensed under the BSD 3-Clause License.
