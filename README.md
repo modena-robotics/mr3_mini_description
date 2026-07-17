@@ -1,5 +1,5 @@
 # MR-3 Mini Description
-ROS2 description package for the MR-3 Mini palletizing robot.
+ROS 2 description package for the MR-3 Mini palletizing robot.
 
 Includes the robot URDF, STL meshes, RViz configuration and a launch file for interactive visualization using the joint sliders GUI.
 
@@ -16,9 +16,9 @@ Visualize and interact with the MR-3 Mini robot directly in RViz.
 - Mimic joints for realistic linkage motion
 
 ## Installation
-This package assumes an existing ROS2 workspace.
+This package assumes an existing ROS 2 workspace.
 
-Clone the repository into your ROS2 workspace:
+Clone the repository into your workspace:
 
 ```bash
 cd ~/ros2_ws/src
@@ -48,7 +48,7 @@ The launch file starts:
 allowing the user to visualize and interact with the robot model.
 
 ## Compatibility
-Tested with ROS2 Jazzy.
+Tested with ROS 2 Jazzy.
 
 ## License
 This project is licensed under the BSD 3-Clause License.
