@@ -1,7 +1,7 @@
 # MR-3 Mini Description
 ROS 2 description package for the MR-3 Mini palletizing robot.
 
-Includes the robot URDF, STL meshes, RViz configuration and a launch file for interactive visualization using the joint sliders GUI.
+Includes the robot URDF, STL meshes, RViz configuration and a launch file for interactive visualization using the joint sliders GUI and optional TCP trajectory path visualization.
 
 Visualize and interact with the MR-3 Mini robot directly in RViz.
 
@@ -13,6 +13,7 @@ Visualize and interact with the MR-3 Mini robot directly in RViz.
 - Pre-configured RViz workspace
 - Joint sliders GUI for interactive visualization
 - TCP (Tool Center Point) visualization
+- Optional TCP trajectory path visualization
 - Mimic joints for realistic linkage motion
 
 ## Installation
@@ -46,6 +47,8 @@ The launch file starts:
 - RViz2
 
 allowing the user to visualize and interact with the robot model.
+
+The TCP trajectory path visualization can optionally be enabled when jogging or executing robot instructions through the `mr3_mini_driver` launch file.
 
 ## Compatibility
 Tested with ROS 2 Jazzy.
